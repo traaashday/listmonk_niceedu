@@ -11,7 +11,7 @@ client = OpenAI(
 # Keys to translate. If this is empty, all keys are translated.
 KEYS = []
 
-DEFAULT_LANG = "en.json"
+DEFAULT_LANG = "zh-TW.json"
 DIR = os.path.normpath(os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "../i18n"))
 BASE = json.loads(open(os.path.join(DIR, DEFAULT_LANG), "r").read())
